@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(20, 20, 20);
+}
+.profile-rectangle {
+    background-color: rgb(34, 34, 34);
+    height: 575px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+}
+.profile-pic {
+    text-align: center;
+    display: block;
+    /* This will center the image. */
+}
+img {
+    height: 175px;
+    width: 125px;
+    border-radius: 100%;
+    margin-top: 10%;
+}
+.name {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: Verdana;
+    font-size: 1.5em;
+}
+.origin {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-size: 1.25em;
+    color: greenyellow;
+    font-family: Verdana;
+}
+.bio {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+a {
+    display: block;
+}
+button {
+    height: 46px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    border: 2px;
+    border-radius: 25px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+button:first-of-type {
+    margin-top: 15px;
+}
+button:hover {
+    background-color: greenyellow;
+    color: rgb(34, 34, 34);
+}

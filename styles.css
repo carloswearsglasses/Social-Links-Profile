@@ -51,26 +51,26 @@ img {
     color: white;
     font-size: large;
 }
-a {
+.button {
     display: block;
-}
-button {
+    text-align: center;
+    text-decoration: none;
     height: 46px;
-    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     border: 2px;
     border-radius: 25px;
     background-color: rgb(51, 51, 51);
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    padding: .875rem;
 }
-button:first-of-type {
+.button:first-of-type {
     margin-top: 15px;
 }
-button:hover {
+.button:hover {
     background-color: greenyellow;
     color: rgb(34, 34, 34);
 }
